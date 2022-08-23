@@ -1,0 +1,21 @@
+
+// this ALWAYS GENERATED file contains the sub-method library header
+// Generated at 31.10.2012 13:25:53
+
+#pragma once
+#ifndef HSL_RUNTIME
+namespace SETCUTTEDTIPTYPE_UNIVERSAL_V2 {
+function _InitLibrary() { }
+function _ExitLibrary() { }
+function ResetAllTipTypes( device & ML_STAR ) void { }
+function ResetTipType( device & ML_STAR, variable iTipType ) void { }
+function SetCuttedTipTypeByDiameter( device & ML_STAR, variable iTipType, variable iCuttedDiameter ) void { }
+function SetCuttedTipTypeByLength( device & ML_STAR, variable iTipType, variable iCuttingLength ) void { }
+function SetCuttedTipTypeByPartnumber( device & ML_STAR, variable iPartnummer ) void { }
+} // namespace
+#endif
+
+#ifdef HSL_RUNTIME
+#include __filename__ ".hsi"
+#endif
+// $$author=chdanuser$$valid=0$$time=2012-10-31 13:25$$checksum=1614d996$$length=086$$

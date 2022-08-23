@@ -1,0 +1,23 @@
+
+// this ALWAYS GENERATED file contains the sub-method library header
+// Generated at 10/26/2020 12:40:27 PM
+
+#pragma once
+#ifndef HSL_RUNTIME
+namespace BIOTAGEPLASMIDPURIFICATION_DIALOGSCONTROLLER {
+function _InitLibrary() { }
+function _ExitLibrary() { }
+function calculateConsumableRequirements( variable i_int_requestedElutionBufferVol, variable & o_int_requiredWash1Buffer, variable & o_int_requiredWash2Buffer, variable & o_int_requiredElutionBuffer, variable & o_int_requiredResuspensionBuffer, variable & o_int_requiredLysisBuffer, variable & o_int_requiredPrecipitationBuffer, variable & o_int_requiredEquilibrationBuffer ) void { }
+function displayLoadingInstructions( variable i_int_elutionBufferPerSample ) variable {  return (0); }
+function displayMethodCompleteDialog(  ) variable {  return (0); }
+function displayTipWarningDialog( variable i_int_tipTypeWithNotEnoughRacks, variable i_int_requiredNumberOfTipRacks ) variable {  return (0); }
+function displayWarningMessage( variable i_str_dialogMainMessage, variable i_str_dialogLongMessage ) variable {  return (0); }
+function getUserInput( variable & o_int_resinVolume, variable & o_int_elutionVolume, variable & o_bln_PerformSecondElution ) variable {  return (0); }
+function queryCellPelletResuspensionState(  ) variable {  return (0); }
+} // namespace
+#endif
+
+#ifdef HSL_RUNTIME
+#include __filename__ ".hsi"
+#endif
+// $$author=Hutchens_W$$valid=0$$time=2020-10-26 12:40$$checksum=cde7e917$$length=087$$

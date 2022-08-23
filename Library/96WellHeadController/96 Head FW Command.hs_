@@ -1,0 +1,19 @@
+
+// this ALWAYS GENERATED file contains the sub-method library header
+// Generated at 6/5/2020 1:20:12 PM
+
+#pragma once
+#ifndef HSL_RUNTIME
+namespace _96_HEAD_FW_COMMAND {
+function _InitLibrary() { }
+function _ExitLibrary() { }
+function _96HeadAsp_Disp( variable _LabwareID, variable _Aspirate, variable _Dispense, variable _GotoTraverseBeforeAsp, variable _GotoTraverseAfterAsp, variable _LLDSearchHeight, variable _FixedHeightDuringAsp, variable FAspFlowRate, variable FDispFlowRate, variable _pp, variable _iw, variable _ix, variable _fh, variable i_int_aspirationVolume, variable _wv, variable _cm, variable _cs, variable _hv, variable _hc, variable _hp, variable _zv, variable _zq, variable _mj, variable _cj, variable _cx, variable _cr, variable _liquidClass, variable _sleepBetweenPlungerMove, variable _GotoTraverseHeightBeforeDisp, variable _GotoTraverseHeightAfterDisp, variable i_int_dispenseVolume, variable _fixedHeightDuringDispense, device & System, sequence & _sequenceLabWareID, variable _bv, variable _bvDispense, variable _sequencePosition, variable _sleepDispense ) void { }
+function _96HeadFullParameters( variable _LabwareID, variable _Aspirate, variable _Dispense, variable _GotoTraverseBeforeAsp, variable _GotoTraverseAfterAsp, variable _LLDSearchHeight, variable _FixedHeightDuringAsp, variable _pp, variable _iw, variable _ix, variable _fh, variable _af, variable _wv, variable _cm, variable _cs, variable _hv, variable _hc, variable _hp, variable _zv, variable _zq, variable _mj, variable _cj, variable _cx, variable _cr, variable _liquidClass, variable _sleepBetweenPlungerMove, variable _GotoTraverseHeightBeforeDisp, variable _GotoTraverseHeightAfterDisp, variable _df, variable _fixedHeightDuringDispense, device & System, sequence & _sequenceLabWareID, variable _bv, variable _bvDispense ) void { }
+function _96HeadTraverseHeight( device & ML_STAR ) void { }
+} // namespace
+#endif
+
+#ifdef HSL_RUNTIME
+#include __filename__ ".hsi"
+#endif
+// $$author=Rosenberg_A$$valid=0$$time=2020-06-05 13:20$$checksum=21c87f7e$$length=088$$
